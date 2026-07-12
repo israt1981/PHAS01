@@ -1,58 +1,80 @@
-*{
+* {
     margin: 0;
     border: 0;
     box-sizing: border-box;
 }
-.navhead{
+
+.navhead {
     font-family: "Inter", sans-serif;
 }
-.navbar{
+
+.navbar {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 
-    align-items:center;
+    align-items: center;
 
-    background:white;
+    background: white;
 
-   padding:20px 80px;
+    padding: 20px 80px;
 
-    box-shadow:0 2px 10px rgba(0,0,0,.08);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .08);
 }
-.logo img{
+
+.logo img {
     height: auto;
     width: 94;
 }
-.navhead{
 
-    display:flex;
+.navhead {
 
-    list-style:none;
+    display: flex;
 
-    gap:40px;
+    list-style: none;
+
+    gap: 40px;
 
 }
 
 /* Links */
 
-.navhead a{
+.navhead a {
 
-    text-decoration:none;
+    text-decoration: none;
 
-    color:#555;
+    color: #555;
 
-    font-size:16px;
+    font-size: 16px;
 
-    font-weight:400;
-
-}
-.navhead a:hover{
-
-    color:#1d4ed8;
+    font-weight: 400;
 
 }
-.register-btn{
-    border: 1px solid blue;
-    background-color: blue;
+
+.navhead a:hover {
+
+    color: #1d4ed8;
+
+}
+
+.register-btn {
+    text-decoration: none;
+
+    background: #234cc9;
+
     color: white;
-    
+
+    padding: 15px 30px;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+
+}
+
+.register-btn:hover {
+
+    background-color: #230393;
+}
+.porda{
+    background-image: url("./blackbanner.jpg");
 }
