@@ -68,6 +68,7 @@
     border-radius: 10px;
 
     font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
@@ -105,7 +106,8 @@
 
     flex-direction:column;
 
-    justify-content:center;
+   /* justify-content:center;*/
+   padding-top: 140px;
 
     align-items:center;
 
@@ -122,6 +124,7 @@
     font-size:80px;
 
     font-weight:700;
+   
 }
 .porda span{
 
@@ -136,6 +139,7 @@
     font-weight: 400;
 }
 .button2{
+    margin-top: 280px;
     
    
     background:#234cc9;
@@ -144,11 +148,13 @@
 
     text-decoration:none;
 
-    padding:18px 40px;
+    padding: 20px 40px;
 
     border-radius:10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
 
-    font-weight:bold;
+   font-weight: bolder;
 
   
 
