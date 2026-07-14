@@ -716,7 +716,7 @@
 
     border: none;
 
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(2, 0, 8);
 
 }
 
@@ -728,7 +728,7 @@
 
 .footer-bottom p {
 
-    color: #242528;
+    color: #202123;
 
     font-size: 15px;
 
